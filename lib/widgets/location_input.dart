@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-
-// import 'package:flutter_map/flutter_map.dart';
-import 'package:great_places_app/models/place.dart';
-
-// import 'package:latlong2/latlong.dart';
 import 'package:location/location.dart';
+// import 'package:flutter_map/flutter_map.dart';
+// import 'package:latlong2/latlong.dart';
 
 import '../helpers/location_helper.dart';
 import '../screens/map_screen.dart';

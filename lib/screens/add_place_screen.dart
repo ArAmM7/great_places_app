@@ -2,13 +2,12 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:great_places_app/models/place.dart';
-import 'package:great_places_app/widgets/location_input.dart';
 import 'package:provider/provider.dart';
 
-import '../widgets/image_input.dart';
+import '../models/place.dart';
 import '../providers/places.dart';
-import '../helpers/location_helper.dart';
+import '../widgets/location_input.dart';
+import '../widgets/image_input.dart';
 
 class AddPlaceScreen extends StatefulWidget {
   static const routeName = '/add-place';

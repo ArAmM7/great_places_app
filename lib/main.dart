@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:great_places_app/screens/places_detail_screen.dart';
 import 'package:provider/provider.dart';
 
 import './providers/places.dart';
 import './screens/places_list_screen.dart';
 import './screens/add_place_screen.dart';
+import './screens/places_detail_screen.dart';
 
 void main() {
   runApp(const MyApp());

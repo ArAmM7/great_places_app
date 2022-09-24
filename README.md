@@ -4,9 +4,9 @@ An app that lets you save places locally, taking pictures of the place and addin
 device location or by selecting on Google Maps. My fifth app using flutter, interacting with native
 device features, like GPS, Camera, device storage, and local SQLite.
 
-The [Provider package](https://pub.dev/packages/provider) is used which for state management, which
-is enough for this kind and size of app. The [http package](https://pub.dev/packages/http) is used
-to communicate with Google Maps
+The [Provider package](https://pub.dev/packages/provider) is used for state management, which is
+enough for this kind and size of app. The [http package](https://pub.dev/packages/http) is used to
+communicate with Google Maps
 Platform's [Geocoding API](https://developers.google.com/maps/documentation/geocoding)
 and [Maps Static API](https://developers.google.com/maps/documentation/maps-static),
 [sqflite](https://pub.dev/packages/sqflite) is used for local
