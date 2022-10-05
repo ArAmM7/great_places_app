@@ -16,3 +16,10 @@ and [path](https://pub.dev/packages/path) are used for local storage path
 manipulation, [location ](https://pub.dev/packages/location) is used for getting GPS data,
 and [google_maps_flutter](https://pub.dev/packages/google_maps_flutter) is used for displaying maps
 and selecting location. 
+
+<p float="left">
+<img src="screenshots/Screenshot_20221005_201023_framed.png" width=320>
+<img src="screenshots/Screenshot_20221005_201614_framed.png" width=320>
+<img src="screenshots/Screenshot_20221005_201406_framed.png" width=320>
+<img src="screenshots/Screenshot_20221005_201456_framed.png" width=320>
+</p>

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../providers/places.dart';
-import './map_screen.dart';
+import 'package:great_places_app/providers/places.dart';
+import 'package:great_places_app/screens/map_screen.dart';
 
 class PlacesDetailScreen extends StatelessWidget {
   const PlacesDetailScreen({Key? key}) : super(key: key);

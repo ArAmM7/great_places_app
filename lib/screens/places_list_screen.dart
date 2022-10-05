@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:great_places_app/screens/places_detail_screen.dart';
 import 'package:provider/provider.dart';
 
-import '../providers/places.dart';
-import '../screens/add_place_screen.dart';
+import 'package:great_places_app/screens/places_detail_screen.dart';
+import 'package:great_places_app/providers/places.dart';
+import 'package:great_places_app/screens/add_place_screen.dart';
 
 class PlacesListScreen extends StatelessWidget {
   const PlacesListScreen({Key? key}) : super(key: key);

@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:http/http.dart' as http;
 
-import '../.secrets/secrets.dart'; // file where sensitive information is stored
+import 'package:great_places_app/.secrets/secrets.dart'; // file where sensitive information is stored
 
 class LocationHelper {
   //https://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=600x300&maptype=roadmap
@@ -37,11 +37,6 @@ class LocationHelper {
       },
     );
     final response = await http.post(url);
-
-    print(jsonDecode(response.body)['results'][0]['formatted_address']);
     return jsonDecode(response.body)['results'][0]['formatted_address'];
   }
 }
-
-
-
